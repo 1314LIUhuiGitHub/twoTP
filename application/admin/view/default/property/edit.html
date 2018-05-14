@@ -1,0 +1,40 @@
+{extend name="public/base" /}
+
+{block name="body"}
+	<div class="main-title">
+		<h2>{:isset($Property['id'])?'编辑':'新增'}报修管理</h2>
+	</div>
+	<form action="{:url()}" method="post" class="form-horizontal">
+		<div class="form-item">
+			<label class="item-label">报修姓名<span class="check-tips">(户主名称）</span></label>
+			<div class="controls">
+				<input type="text" class="text input-large" name="name" value="{$Property.name|default=''}">
+			</div>
+		</div>
+		<div class="form-item">
+			<label class="item-label">联系电话<span class="check-tips">（联系电话）</span></label>
+			<div class="controls">
+				<input type="text" class="text input-large" name="tel" value="{$Property.tel|default=''}">
+			</div>
+		</div>
+		<div class="form-item">
+			<label class="item-label">详细地址<span class="check-tips">（住户楼号、门牌号）</span></label>
+			<div class="controls">
+				<input type="text" class="text input-large" name="address" value="{$Property.address|default=''}">
+			</div>
+		</div>
+		<div class="form-item">
+			<label class="item-label">报修说明<span class="check-tips">（维修物品详细说明）</span></label>
+			<div class="controls">
+				<label class="textarea input-large">
+					<textarea name="intro">{$Property.intro|default=''}</textarea>
+				</label>
+			</div>
+		</div>
+		<div class="form-item">
+			<input type="hidden" name="id" value="{$Property.id|default=''}">
+			<button class="btn submit-btn ajax-posts" id="submit" type="submit" target-form="form-horizontal">确 定</button>
+			<button class="btn btn-return" onclick="javascript:history.back(-1);return false;">返 回</button>
+		</div>
+	</form>
+{/block}
