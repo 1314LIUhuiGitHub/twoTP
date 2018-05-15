@@ -14,6 +14,7 @@ use think\Validate;
 class Property extends Validate
 {
     protected $rule = [
+        ['title', 'require', '标题必填'],
         ['name', 'require', '报修人必填'],
         ['tel', 'require', '联系电话必填'],
         ['tel', ['^1([358][0-9]|4[579]|66|7[0135678]|9[89])[0-9]{8}$'], '手机号码格式错误'],

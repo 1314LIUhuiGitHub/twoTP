@@ -6,6 +6,12 @@
 	</div>
 	<form action="{:url()}" method="post" class="form-horizontal">
 		<div class="form-item">
+			<label class="item-label">标题<span class="check-tips">(标题）</span></label>
+			<div class="controls">
+				<input type="text" class="text input-large" name="title" value="{$Property.title|default=''}">
+			</div>
+		</div>
+		<div class="form-item">
 			<label class="item-label">报修姓名<span class="check-tips">(户主名称）</span></label>
 			<div class="controls">
 				<input type="text" class="text input-large" name="name" value="{$Property.name|default=''}">

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:100:"D:\PhpStudy20180211\PHPTutorial\WWW\twoTP\public/../application/admin/view/default/article\edit.html";i:1496373782;s:99:"D:\PhpStudy20180211\PHPTutorial\WWW\twoTP\public/../application/admin/view/default/public\base.html";i:1496373782;s:104:"D:\PhpStudy20180211\PHPTutorial\WWW\twoTP\public/../application/admin/view/default/article\sidemenu.html";i:1496373782;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:100:"D:\PhpStudy20180211\PHPTutorial\WWW\twoTP\public/../application/admin/view/default/article\edit.html";i:1496373782;s:99:"D:\PhpStudy20180211\PHPTutorial\WWW\twoTP\public/../application/admin/view/default/public\base.html";i:1526200117;s:104:"D:\PhpStudy20180211\PHPTutorial\WWW\twoTP\public/../application/admin/view/default/article\sidemenu.html";i:1496373782;}*/ ?>
 <!doctype html>
 <html>
 <head>
@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/style.css" media="all">
 	<link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/<?php echo \think\Config::get('color_style'); ?>.css" media="all">
      <!--[if lt IE 9]>
-    <script type="text/javascript" src="__PUBLIC__/static/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript"shome__PUBLIC__/static/jquery-1.10.2.min.js"></script>
     <![endif]--><!--[if gte IE 9]><!-->
     <script type="text/javascript" src="__PUBLIC__/static/jquery-2.0.3.min.js"></script>
     <script type="text/javascript" src="__PUBLIC__/admin/js/jquery.mousewheel.js"></script>

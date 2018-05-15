@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:101:"D:\PhpStudy20180211\PHPTutorial\WWW\twoTP\public/../application/admin/view/default/property\edit.html";i:1526195784;s:99:"D:\PhpStudy20180211\PHPTutorial\WWW\twoTP\public/../application/admin/view/default/public\base.html";i:1526200117;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:101:"D:\PhpStudy20180211\PHPTutorial\WWW\twoTP\public/../application/admin/view/default/property\edit.html";i:1526282931;s:99:"D:\PhpStudy20180211\PHPTutorial\WWW\twoTP\public/../application/admin/view/default/public\base.html";i:1526200117;}*/ ?>
 <!doctype html>
 <html>
 <head>
@@ -104,6 +104,12 @@
 		<h2><?php echo isset($Property['id'])?'编辑':'新增'; ?>报修管理</h2>
 	</div>
 	<form action="<?php echo url(); ?>" method="post" class="form-horizontal">
+		<div class="form-item">
+			<label class="item-label">标题<span class="check-tips">(标题）</span></label>
+			<div class="controls">
+				<input type="text" class="text input-large" name="title" value="<?php echo (isset($Property['title']) && ($Property['title'] !== '')?$Property['title']:''); ?>">
+			</div>
+		</div>
 		<div class="form-item">
 			<label class="item-label">报修姓名<span class="check-tips">(户主名称）</span></label>
 			<div class="controls">

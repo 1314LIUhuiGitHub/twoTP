@@ -32,8 +32,6 @@ class Property extends Admin{
       if (request()->isPost()){
           $Property = model('Property');
           $post_data=request()->post();
-          //添加时间
-          $post_data['add_time']=time();
           //添加维修编号
           $post_data['number']=strtoupper(uniqid());
           $validate = validate('Property');

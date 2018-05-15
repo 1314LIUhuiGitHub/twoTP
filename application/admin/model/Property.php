@@ -12,7 +12,7 @@ use think\Model;
 
 class Property extends  Model
 {
-    protected $autoWriteTimestamp=false;
+    protected $autoWriteTimestamp=true;
     // 新增
     //属性修改器
     protected function setTitleAttr($value, $data)

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:98:"D:\PhpStudy20180211\PHPTutorial\WWW\twoTP\public/../application/user/view/default/login\index.html";i:1526261455;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:98:"D:\PhpStudy20180211\PHPTutorial\WWW\twoTP\public/../application/user/view/default/login\index.html";i:1526272727;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -24,7 +24,7 @@
     .indexLabel{padding: 10px 0; margin: 10px 0 0; color: #fff;}
   </style>
 </head>
-<body>
+<body style="margin-top: 50px">
 <div class="main">
   <!--导航部分-->
   <nav class="navbar navbar-default navbar-fixed-bottom">
@@ -65,7 +65,7 @@
           <div class="form-group">
             <label  for="inputPassword">验证码</label>
             <div class="controls">
-              <input type="text" id="inputPassword" class="form-control" placeholder="请输入验证码"  errormsg="请填写5位验证码" nullmsg="请填写验证码" datatype="*5-5" name="verify">
+              <input type="text" id="" class="form-control" placeholder="请输入验证码"  errormsg="请填写5位验证码" nullmsg="请填写验证码" datatype="*5-5" name="verify">
             </div>
           </div>
           <div class="form-group">

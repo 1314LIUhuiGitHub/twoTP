@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:102:"D:\PhpStudy20180211\PHPTutorial\WWW\twoTP\public/../application/admin/view/default/property\index.html";i:1526265245;s:99:"D:\PhpStudy20180211\PHPTutorial\WWW\twoTP\public/../application/admin/view/default/public\base.html";i:1526200117;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:102:"D:\PhpStudy20180211\PHPTutorial\WWW\twoTP\public/../application/admin/view/default/property\index.html";i:1526282300;s:99:"D:\PhpStudy20180211\PHPTutorial\WWW\twoTP\public/../application/admin/view/default/public\base.html";i:1526200117;}*/ ?>
 <!doctype html>
 <html>
 <head>
@@ -141,7 +141,7 @@
                 <td><?php echo $Property['intro']; ?></td>
                 <td><?php echo $Property['address']; ?></td>
                 <td><?php echo $Property['tel']; ?></td>
-                <td><?php echo time_format($Property['add_time']); ?></td>
+                <td><?php echo time_format($Property['create_time']); ?></td>
                 <td>
                     <a title="编辑" href="<?php echo url('edit?id='.$Property['id']); ?>">编辑</a>
                     <a class="confirm ajax-get" title="删除" href="<?php echo url('del?id='.$Property['id']); ?>">删除</a>

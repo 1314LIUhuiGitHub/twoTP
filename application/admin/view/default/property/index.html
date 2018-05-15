@@ -43,7 +43,7 @@
                 <td>{$Property.intro}</td>
                 <td>{$Property.address}</td>
                 <td>{$Property.tel}</td>
-                <td>{$Property.add_time|time_format}</td>
+                <td>{$Property.create_time|time_format}</td>
                 <td>
                     <a title="编辑" href="{:url('edit?id='.$Property['id'])}">编辑</a>
                     <a class="confirm ajax-get" title="删除" href="{:url('del?id='.$Property['id'])}">删除</a>

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:100:"D:\PhpStudy20180211\PHPTutorial\WWW\twoTP\public/../application/admin/view/default/config\index.html";i:1496373782;s:99:"D:\PhpStudy20180211\PHPTutorial\WWW\twoTP\public/../application/admin/view/default/public\base.html";i:1526200117;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:100:"D:\PhpStudy20180211\PHPTutorial\WWW\twoTP\public/../application/admin/view/default/config\home.html";i:1496373782;s:99:"D:\PhpStudy20180211\PHPTutorial\WWW\twoTP\public/../application/admin/view/default/public\base.html";i:1526200117;}*/ ?>
 <!doctype html>
 <html>
 <head>
